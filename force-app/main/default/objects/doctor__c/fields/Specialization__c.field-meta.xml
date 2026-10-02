@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialization__c</fullName>
+    <label>Specialization</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Physician</fullName>
+                <default>false</default>
+                <label>General Physician</label>
+            </value>
+            <value>
+                <fullName>Cardiologist</fullName>
+                <default>false</default>
+                <label>Cardiologist</label>
+            </value>
+            <value>
+                <fullName>Dermatologist</fullName>
+                <default>false</default>
+                <label>Dermatologist</label>
+            </value>
+            <value>
+                <fullName>Neurologist</fullName>
+                <default>false</default>
+                <label>Neurologist</label>
+            </value>
+            <value>
+                <fullName>Orthopedic Surgeon</fullName>
+                <default>false</default>
+                <label>Orthopedic Surgeon</label>
+            </value>
+            <value>
+                <fullName>Pediatrician</fullName>
+                <default>false</default>
+                <label>Pediatrician</label>
+            </value>
+            <value>
+                <fullName>Gynecologist</fullName>
+                <default>false</default>
+                <label>Gynecologist</label>
+            </value>
+            <value>
+                <fullName>Ophthalmologist</fullName>
+                <default>false</default>
+                <label>Ophthalmologist</label>
+            </value>
+            <value>
+                <fullName>ENT Specialist</fullName>
+                <default>false</default>
+                <label>ENT Specialist</label>
+            </value>
+            <value>
+                <fullName>Psychiatrist</fullName>
+                <default>false</default>
+                <label>Psychiatrist</label>
+            </value>
+            <value>
+                <fullName>Urologist</fullName>
+                <default>false</default>
+                <label>Urologist</label>
+            </value>
+            <value>
+                <fullName>Oncologist</fullName>
+                <default>false</default>
+                <label>Oncologist</label>
+            </value>
+            <value>
+                <fullName>Radiologist</fullName>
+                <default>false</default>
+                <label>Radiologist</label>
+            </value>
+            <value>
+                <fullName>Dentist</fullName>
+                <default>false</default>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Physiotherapist</fullName>
+                <default>false</default>
+                <label>Physiotherapist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

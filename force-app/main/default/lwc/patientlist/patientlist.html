@@ -1,0 +1,33 @@
+<template>
+
+    <lightning-card
+        title="Patient List"
+        icon-name="standard:contact">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Search Box -->
+            <lightning-input
+                type="search"
+                label="Search Patient"
+                placeholder="Enter patient name..."
+                value={searchTerm}
+                onchange={handleSearch}>
+            </lightning-input>
+
+            <div class="slds-m-top_medium">
+
+                <lightning-datatable
+                    key-field="Id"
+                    data={filteredPatients}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+
+            </div>
+
+        </div>
+
+    </lightning-card>
+
+</template>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prevent_negative_Amount</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    Consultation_Fee__c &lt; 0,
+    Medicine_Charges__c &lt; 0,
+    Other_charges__c &lt; 0
+)</errorConditionFormula>
+    <errorMessage>Amount cannot be negative.</errorMessage>
+</ValidationRule>

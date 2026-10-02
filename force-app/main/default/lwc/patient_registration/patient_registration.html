@@ -1,0 +1,56 @@
+<template>
+    <lightning-card title="patient_registration" icon-name="standard:contact">
+
+        <div class="slds-p-around_medium">
+
+            <lightning-record-edit-form
+                object-api-name="patient__c"
+                onsuccess={handleSuccess}
+                onerror={handleError}>
+
+                <lightning-messages></lightning-messages>
+
+                <lightning-input-field
+                    field-name="Name__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Age__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Gender__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Blood_Group__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Mobile_no__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Email__c">
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name="Address__c">
+                </lightning-input-field>
+
+                <div class="slds-m-top_medium">
+
+                    <lightning-button
+                        type="submit"
+                        variant="brand"
+                        label="Register Patient">
+                    </lightning-button>
+
+                </div>
+
+            </lightning-record-edit-form>
+
+        </div>
+
+    </lightning-card>
+</template>
